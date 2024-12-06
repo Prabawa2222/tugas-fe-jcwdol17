@@ -1,23 +1,30 @@
-/** @format */
+"use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { IProduct } from "@/types/types";
 
-export default function CardComponent() {
+const CardComponent = ({
+  id,
+  img,
+  product_name,
+  description,
+  price,
+}: IProduct) => {
   return (
-    <div className="card bg-base-100 w-full shadow-xl">
+    <div key={id} className="card bg-base-100 w-64 shadow-xl">
       <figure>
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-          alt="Shoes"
-        />
+        <img src={img} alt={product_name} />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">Shoes!</h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <h2 className="card-title">{product_name}</h2>
+        <p>{description}</p>
+        <p className="font-bold text-lg">${price}</p>
         <div className="card-actions justify-end">
-          <button className="btn btn-primary">Add to Card</button>
+          <button className="btn btn-primary">Add to Cart</button>
         </div>
       </div>
     </div>
   );
-}
+};
+
+export default CardComponent;

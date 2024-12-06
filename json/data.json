@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzc4MjEzLzc3MmY1NGIzOTRlOWFjYWUyMDA0ODZmNmVlZDY4OTQzLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTQwMH19fQ==",
+      "product_name": "Nike P-6000 Metallic Silver Sail",
+      "description": "his offering of the shoe comes dressed in a Metallic Silver, Sail, and Black color scheme.",
+      "price": 200
+    },
+    {
+      "id": 2,
+      "img": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzM4NDUyLzg3Mjc0YjcxZTE3NWQ4NGY3Mzc2ZDM0ZGE5Nzg5MDlhLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTQwMH19fQ==",
+      "product_name": "Salomon XT-6 Black Phantom",
+      "description": "his offering of the shoe comes dressed in a Metallic Silver, Sail, and Black color scheme.",
+      "price": 300
+    },
+    {
+      "id": 3,
+      "img": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzk2Nzk2LzE4MmIyMzdhNjk5ODQyZmU0NTFmYjFmNjhlZWRmZmQzLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTQwMH19fQ==",
+      "product_name": "Adidas Samba OG",
+      "description": "his offering of the shoe comes dressed in a Metallic Silver, Sail, and Black color scheme.",
+      "price": 400
+    },
+    {
+      "img": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzM2NTExLzYzY2M5NDE4MjM0MzQyZWQyOTM2NGFkZTFjZGQzZWNiLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTQwMH19fQ==",
+      "product_name": "New Balance 1906R White Gold",
+      "description": "If a dog chews shoes whose shoes does he choose?",
+      "price": 250,
+      "id": 4
+    }
+  ]
+}

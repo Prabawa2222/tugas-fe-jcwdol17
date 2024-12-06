@@ -1,6 +1,7 @@
-/** @format */
+"use client";
 
 import React from "react";
+import SearchBar from "./searchbar.component";
 
 export default function NavbarComponent() {
   return (
@@ -10,11 +11,7 @@ export default function NavbarComponent() {
           <a className="btn btn-ghost text-xl">Nama Toko</a>
         </div>
         <div className="w-full">
-          <input
-            type="text"
-            placeholder="Search Product...."
-            className="w-full p-2 rounded-lg"
-          />
+          <SearchBar />
         </div>
         <div className="flex-none">
           <div className="dropdown dropdown-end">
